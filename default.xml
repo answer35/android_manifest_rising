@@ -1308,4 +1308,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/rising.xml" />
+  <include name="snippets/answer35.xml" />
 </manifest>
