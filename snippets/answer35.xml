@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="answer35"
+          fetch="https://github.com/answer35/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/rise14" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/answer35/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/fourteen" />
+
+  <!-- answer35 remove-projects -->
+  <remove-project path="vendor/addons" />
+  <remove-project path="vendor/gms" />
+  
+  <!-- Vendor  -->
+  <project path="vendor/addons" name="android_vendor_addons" remote="answer35" revision="fourteen" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" />
+
+  <!-- OP8Pro Sources  -->
+  <project path="device/oneplus/instantnoodlep" name="device_oneplus_instantnoodlep" remote="answer35" />
+  <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="answer35" />
+  <project path="vendor/oneplus/instantnoodlep" name="vendor_oneplus_instantnoodlep" remote="answer35" />
+  <project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="answer35" />
+  <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="answer35" />
+  <project path="hardware/oplus" name="hardware_oplus" remote="answer35" />
+  
+</manifest>
