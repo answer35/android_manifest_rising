@@ -18,7 +18,7 @@ Getting Started
 ---------------
 **Initialize local repository**
 ```bash
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/answer35/android_manifest_rising -b fourteen --git-lfs
 ```
 
 **Sync up with this command:**
@@ -35,10 +35,7 @@ rm -rf vendor/gms
 rm -rf .repo/projects/vendor/gms.git
 rm -rf .repo/project-objects/*/android_vendor_gms.git
 
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
-
-# for SSH
-repo init -u git@github.com:RisingTechOSS/android.git -b fourteen --git-lfs 
+repo init -u https://github.com/answer35/android_manifest_rising -b fourteen --git-lfs
 
 ```
 
