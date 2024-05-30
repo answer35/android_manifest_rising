@@ -14,8 +14,19 @@
           revision="refs/heads/fourteen" />
 
   <!-- answer35 remove-projects -->
+  <remove-project path="build/soong" />
+  <remove-project path="packages/apps/crDroidSettings" />
   <remove-project path="vendor/addons" />
   <remove-project path="vendor/gms" />
+
+  <!-- Build  -->
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="answer35" revision="fourteen" >
+    <linkfile dest="Android.bp" src="root.bp" />
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  </project>
+
+  <!-- Non-AOSP Packages  -->
+  <project path="packages/apps/crDroidSettings" name="android_packages_apps_Personalizations" groups="pdk-fs" remote="answer35" />
   
   <!-- Vendor  -->
   <project path="vendor/addons" name="android_vendor_addons" remote="answer35" revision="fourteen" />
