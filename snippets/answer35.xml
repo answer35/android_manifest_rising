@@ -7,7 +7,7 @@
           sync-j="4"
           revision="refs/heads/rise14" />
 
-  <remote name="gitlab"
+  <remote name="gitlab_answer35"
           fetch="https://gitlab.com/answer35/"
           sync-c="true"
           sync-j="4"
@@ -30,7 +30,7 @@
   
   <!-- Vendor  -->
   <project path="vendor/addons" name="android_vendor_addons" remote="answer35" revision="fourteen" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab_answer35" />
 
   <!-- OP8Pro Sources  -->
   <project path="device/oneplus/instantnoodlep" name="device_oneplus_instantnoodlep" remote="answer35" />
