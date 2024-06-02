@@ -11,7 +11,7 @@
           fetch="https://gitlab.com/answer35/"
           sync-c="true"
           sync-j="4"
-          revision="refs/heads/fourteen" />
+          revision="refs/heads/udc" />
 
   <!-- answer35 remove-projects -->
   <remove-project path="build/soong" />
